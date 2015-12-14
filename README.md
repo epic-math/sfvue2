@@ -1,7 +1,7 @@
 #sfvue    
 ----
 
-We are developing knowledge library for learning programming. The best resources to learn something(related to computer science) on the web are scattered and newcomers waste lot of time to go through choices of tools, then where to learn and all. We aim to elinimate this by recommending beginners the best resource for a tool or language. And who will decide which is best, its the users themselves(plus some AI behind the door).
+Django with lots of pics/videos.
 
 ##Version 1 features
 
@@ -33,16 +33,9 @@ We are developing knowledge library for learning programming. The best resources
 
 *For full requirements, see requirment.txt*
 
-
 ##Install
 
 See INSTALL.md for full installation instructions.
-
-
-## We need your help
-
-+ We need Django developers for this project.
-+ None of us are a designer, if you can help or know someone who can, please [mail us](mailto:akarambir@gmail.com).
 
 ## LICENSE
 
