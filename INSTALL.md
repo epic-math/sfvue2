@@ -5,9 +5,9 @@
 1. Download or clone this repo.
 2. Go to project home folder and run these commands:
 
-    cp sfvue/example_local.py sfvue/local_settings.py
-    virtualenv venv
-    source venv/bin/activate
+    cp sfvue/example_local.py sfvue/local_settings.py 
+    virtualenv venv 
+    source venv/bin/activate 
 
 3. This will create a virtual environment and activate it. Now use pip to install dependencies with:
 
@@ -22,9 +22,9 @@
 
 5. It will ask you to provide username, email and password. Give them and run following migrations:
 
-    python manage.py migrate guardian
-    python manage.py migrate resources
-    python manage.py migrate profiles
+    python manage.py migrate guardian 
+    python manage.py migrate resources 
+    python manage.py migrate profiles 
 
 5. Run django server 
     python manage.py runserver 
