@@ -13,8 +13,7 @@
 
     pip install -r dev-requirements.txt
     (note) 
-       PIL==1.1.7 --allow-external PIL --allow-unverified PIL
-
+       --allow-external PIL --allow-unverified PIL PIL==1.1.7
 
 4. Now we have to prepare a database:
 
