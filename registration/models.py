@@ -267,5 +267,7 @@ class RegistrationProfile(models.Model):
         message = render_to_string('registration/activation_email.txt',
                                    ctx_dict)
         
+        print "send_activation_email:"
+        print "settings.DEFAULT_FROM_EMAIL=",settings.DEFAULT_FROM_EMAIL
         self.user.email_user(subject, message, settings.DEFAULT_FROM_EMAIL)
     

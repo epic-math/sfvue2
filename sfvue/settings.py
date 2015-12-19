@@ -6,7 +6,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-     ('K Hong', 'sfvue.contact@gmail.com'),
+     ('K Hong', 'k@bogotobogo.com'),
 )
 
 MANAGERS = ADMINS
@@ -163,11 +163,11 @@ LOGIN_REDIRECT_URL = '/resource/'
 ABSOLUTE_URL_OVERRIDES = {
         'auth.user': lambda u: "/profile/%s/" % u.username,
 }
-SERVER_EMAIL = "sfvue.contact@gmail.com"
+SERVER_EMAIL = "k@bogotobogo.com"
 
 #Django-Registration Settings
 ACCOUNT_ACTIVATION_DAYS = 7
-DEFAULT_FROM_EMAIL = "sfvue.contact@gmail.com"
+DEFAULT_FROM_EMAIL = "k@bogotobogo.com"
 
 #Django-Guardian Settings
 ANONYMOUS_USER_ID = -1
@@ -179,6 +179,14 @@ RATINGS_VOTES_PER_IP = 2000 #TODO all votes are essentially from 127.0.0.1. This
 #Disqus Settings
 DISQUS_API_KEY = 'lTuOXBAfTK3symHWvi7cZHgcYipkL32BoSud7f0H4gl4lfVhVw0HCcbcmiu1rWJY'
 DISQUS_WEBSITE_SHORTNAME = 'sfvue'
+
+
+#EMAIL_HOST = 'mail.bogotobogo.com'
+#EMAIL_HOST_USER = 'k@bogotobogo.com'
+#EMAIL_HOST_PASSWORD = 'HK*UY(!4a'
+#EMAIL_PORT = 26
+#EMAIL_USE_TLS = True
+
 
 #Import Local and Prod settings
 try:

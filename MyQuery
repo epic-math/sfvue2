@@ -1,0 +1,26 @@
+select *from profiles_userprofile;
+select * from auth_group;
+select * from auth_permission;
+select* from auth_user_groups;
+select* from auth_user_user_permissions;
+select * from django_site;
+select * from guardian_groupobjectpermission;
+select * from profiles_project;
+select * from django_admin_log;
+select * from django_content_type;
+select * from django_site;
+select * from django_session;
+select * from django_flatpage;
+select * from django_flatpage_sites;
+select * from profiles_userprofile;
+select * from resources_resource;
+select * from resources_featuredresource;
+select * from resources_topic;
+select * from resources_resource_topics;
+
+select * from registration_registrationprofile;
+select* from auth_user;
+
+
+delete  from registration_registrationprofile where id < 10;
+delete from auth_user where id=0;
