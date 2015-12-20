@@ -3,3 +3,4 @@
 venv/*
 *.db
 gunicorn-codesters.conf.py
+local_settings.py
