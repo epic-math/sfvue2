@@ -11,6 +11,9 @@
 
 3. This will create a virtual environment and activate it. Now use pip to install dependencies with:
 
+    (note) We may want to install mariadb-devel to avoid 
+           vertualenv EnvironmentError: mysql_config not found
+
     pip install -r dev-requirements.txt
     (note) 
        --allow-external PIL --allow-unverified PIL PIL==1.1.7
