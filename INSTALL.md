@@ -36,3 +36,6 @@
 7. Create Resource Types named Book, Ebook, Tutorial, Online Course, Other.
 
 8. Go to home page.
+
+9. (note) SECRET_KEY is in local_settings.py, and this should not be committed. 
+   Current KEY in settings.py is not used.
