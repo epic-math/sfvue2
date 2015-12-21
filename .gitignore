@@ -3,4 +3,4 @@
 venv/*
 *.db
 gunicorn-codesters.conf.py
-local_settings.py
+sfvue/local_settings.py
