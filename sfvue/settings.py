@@ -45,7 +45,8 @@ LOCAL_APPS = (
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
-DATABASES = {
+''' 
+DATABASES = {  ==> moved to sfvue/local_settings.py 
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': os.path.join(PROJECT_ROOT, 'sfvueuserdb.db'),
@@ -55,8 +56,7 @@ DATABASES = {
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
 }
-
-print "DATABASES['default']['NAME']=",DATABASES['default']['NAME']
+'''
 
 MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'media')
 
