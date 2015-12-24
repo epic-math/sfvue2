@@ -41,5 +41,5 @@ This project is licensed under [MIT License](http://mit-license.org). See LICENS
 
 ## NOTE
 
-Django version 1.8.7 is available sfvue2.1
+Django version 1.8.7 is available https://github.com/epic-math/sfvue2.1.git
 
