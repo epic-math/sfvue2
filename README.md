@@ -3,7 +3,8 @@
 
 Django with lots of pics/videos.
 
-##Version 1 features
+ 
+##Version features (not finished yet)
 
 + Users can share any link of interesting blog post or video or tutorial in the Resource Section.
 + Resources are divided in topics around 3 levels(beginner, intermediate, advanced).
@@ -11,9 +12,6 @@ Django with lots of pics/videos.
 + Users can save interesting resources to their profile for later use.
 + Topic follow button allow users to follow topics to get interesting news, new resources.
 + Explore section lets view the ongoind activity of the site at a glance.
-
-##Later features
-
 + Moderators and more active users will be able to edit wiki like content in the topics and resources.
 + Tracks will be introduced to give teachers/tutors ability to create content for the their students and distribute them.
 + Users can follow other interesting users.
@@ -40,3 +38,8 @@ See INSTALL.md for full installation instructions.
 ## LICENSE
 
 This project is licensed under [MIT License](http://mit-license.org). See LICENSE.txt
+
+## NOTE
+
+Django version 1.8.7 is available sfvue2.1
+
