@@ -181,14 +181,6 @@ RATINGS_VOTES_PER_IP = 2000 #TODO all votes are essentially from 127.0.0.1. This
 DISQUS_API_KEY = 'lTuOXBAfTK3symHWvi7cZHgcYipkL32BoSud7f0H4gl4lfVhVw0HCcbcmiu1rWJY'
 DISQUS_WEBSITE_SHORTNAME = 'sfvue'
 
-
-#EMAIL_HOST = 'mail.bogotobogo.com'
-#EMAIL_HOST_USER = 'k@bogotobogo.com'
-#EMAIL_HOST_PASSWORD = 'HK*UY(!4a'
-#EMAIL_PORT = 26
-#EMAIL_USE_TLS = True
-
-
 #Import Local and Prod settings
 try:
     from local_settings import *
